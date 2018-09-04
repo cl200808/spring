@@ -7,6 +7,16 @@ public class Comments {
 	private Long hotEvents;
 	private Date commentDate;
 	private String content;
+	private String come;
+
+	public String getCome() {
+		return come;
+	}
+
+	public void setCome(String come) {
+		this.come = come;
+	}
+
 	public Long getId() {
 		return id;
 	}
